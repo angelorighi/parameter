@@ -1,7 +1,7 @@
 {
     "name": "angelor/parameter",
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "Angelor\\Component\\Parameter\\": "src"
         }
     }
