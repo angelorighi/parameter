@@ -1,5 +1,5 @@
 Simple Parameter string normalization
--------------------------------------
+==============================
 
     use Angelor\Component\Parameter\Parameter;
 
@@ -10,6 +10,6 @@ Simple Parameter string normalization
     var_dump($params->getParameters())); // As array
 
 Running the tests:
-
+----------------------
 
     phpunit -c phpunit.xml.dist
