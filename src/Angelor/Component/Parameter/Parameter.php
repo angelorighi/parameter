@@ -11,24 +11,24 @@ class Parameter
      protected $delimiter = ',';
 
     /**
-     * Parameters array    
+     * Parameters array
      * var array
      */
      protected $params;
     
     /**
      * Parameter constructor
-     * @param string $params String with $delimiter separated parameters     
-     */         
+     * @param string $params String with $delimiter separated parameters
+     */
     public function __construct($params)
     {
         $this->params = explode($this->delimiter, $params);
     }
     
     /**
-     * Setter for $delimiter    
+     * Setter for $delimiter
      * @param string $delimiter Split string delimiter
-     * @return  void     
+     * @return  void
      */
     public function setDelimiter($delimiter)
     {
@@ -36,7 +36,7 @@ class Parameter
     }
 
     /**
-     * Get array with normalized parameters    
+     * Get array with normalized parameters
      * @return array
      */
     public function getParameters()
@@ -45,7 +45,7 @@ class Parameter
     }
     
     /**
-     * Magic medthod implementation    
+     * Magic medthod implementation
      * @return string
      */
     public function __toString()
