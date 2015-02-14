@@ -5,7 +5,7 @@ Simple Parameter string normalization
 
     $params = new Parameter('php,developer');
 
-    print $params;  // Strin with magic method __toString()
+    print $params;  // String with magic method __toString()
 
     var_dump($params->getParameters())); // As array
 
