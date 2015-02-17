@@ -41,7 +41,10 @@ class Parameter
      */
     public function getParameters()
     {
-        return array_map('trim', $this->params);
+        $this->params = array_map('trim', $this->params);
+        sort($this->params, SORT_STRING);
+
+        return $this->params;
     }
     
     /**
